@@ -7,7 +7,7 @@ const CustomIndicator = ({ currentIndex, totalSlides, onClick }) => {
       <span
         key={i}
         onClick={() => onClick(i)}
-        className={`inline-block w-8 h-2 mx-1 cursor-pointer rounded-full ${
+        className={`inline-block w-14 h-3 mx-1 cursor-pointer rounded-full ${
           i === currentIndex ? 'bg-blue-500' : 'bg-gray-300'
         }`}
       />

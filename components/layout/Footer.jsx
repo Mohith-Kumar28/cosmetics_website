@@ -39,24 +39,8 @@ const Footer = () => {
             </li>
           </nav>
         </div>
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-          <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
-          <nav className="list-none mb-10">
-            <li>
-              <a className="text-gray-400 hover:text-white">First Link</a>
-            </li>
-            <li>
-              <a className="text-gray-400 hover:text-white">Second Link</a>
-            </li>
-            <li>
-              <a className="text-gray-400 hover:text-white">Third Link</a>
-            </li>
-            <li>
-              <a className="text-gray-400 hover:text-white">Fourth Link</a>
-            </li>
-          </nav>
-        </div>
-        <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+       
+        <div className="lg:w-1/4 md:w-1/2 w-full mx-auto px-4">
           <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">SUBSCRIBE</h2>
           <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
             <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
@@ -77,10 +61,10 @@ const Footer = () => {
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-10 h-10 text-white p-2 bg-red-500 rounded-full" viewBox="0 0 24 24">
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
-          <span className="ml-3 text-xl">Tailblocks</span>
+          <span className="ml-3 text-xl">company</span>
         </a>
-        <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">© 2020 Tailblocks —
-          <a href="https://twitter.com/knyttneve" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@knyttneve</a>
+        <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">© 2023 Logo —
+          <a href="https://twitter.com/knyttneve" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@mail</a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a className="text-gray-400">

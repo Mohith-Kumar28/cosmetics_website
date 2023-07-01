@@ -4,6 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import CustomIndicator from './slider/CustomIndicator';
 import { Compare } from './slider/Compare';
 import NailPolish from './slider/NailPolish';
+import Jewelery from './slider/Jewelery';
 
 const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -14,7 +15,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative overflow-hidden ">
+    <div className="relative  md:max-h-screen  ">
       <Carousel
         autoPlay
         infiniteLoop
@@ -22,7 +23,7 @@ const Hero = () => {
         swipeable={true}
         showStatus={false}
         showThumbs={false}
-        interval={2000}
+        interval={4000}
         transitionTime={500}
         showIndicators={false}
         selectedItem={currentIndex}
@@ -34,9 +35,13 @@ const Hero = () => {
        <div key={1}>
        <NailPolish/>
        </div>
+       <div key={2}>
+       <Jewelery/>
+       </div>
       </Carousel>
-      <div className='absolute z-10 bottom-32 left-10'>
-      <CustomIndicator currentIndex={currentIndex} totalSlides={2} onClick={handleIndicatorClick} />
+      <div className='flex relative z-10 -mt-24 lg:-mt-44 ml-8'>
+      {/* <div className='absolute z-10 bottom-4 left-10'> */}
+      <CustomIndicator currentIndex={currentIndex} totalSlides={3} onClick={handleIndicatorClick} />
       </div>
     </div>
   );

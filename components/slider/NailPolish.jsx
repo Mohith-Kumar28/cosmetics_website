@@ -70,7 +70,7 @@ const NailPolish = () => {
         {nailPolishOptions.map((option) => (
       
         <div  key={option}
-        className={`cursor-pointer w-28 ${
+        className={`cursor-pointer w-16 md:w-28 ${
           selectedOption === option ? 'border-2 rounded-lg' : ''
         }`}
         onClick={() => handleOptionClick(option)}>
