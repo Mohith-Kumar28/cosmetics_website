@@ -70,21 +70,21 @@ const Services = () => {
     </div>
     <div className="flex flex-wrap justify-center">
       <div className=" p-4 max-w-lg">
-        <div className="bg-gray-100 p-6 rounded-lg flex gap-4">
+        <div className="bg-gray-100 p-6 rounded-lg flex flex-col md:flex md:flex-row gap-4">
           <img className="h-40 rounded w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
           <div >
-          <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
+          <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Chichen Itza</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art </p>
           </div>
         </div>
       </div>
       <div className=" p-4 max-w-lg">
-        <div className="bg-gray-100 p-6 rounded-lg flex gap-4">
+        <div className="bg-gray-100 p-6 rounded-lg flex-col md:flex md:flex-row gap-4">
           <img className="h-40 rounded w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
           <div >
-          <h3 className="tracking-widest text-red-500 text-xs font-medium title-font">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">Chichen Itza</h2>
+          <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Chichen Itza</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art </p>
           </div>
         </div>
