@@ -24,7 +24,7 @@ const Testimonials = () => {
         infiniteLoop
         stopOnHover={false}
         // swipeable={true}
-        emulateTouch={true}
+        // emulateTouch={true}
         showStatus={false}
         showThumbs={false}
         interval={2000}
@@ -32,7 +32,7 @@ const Testimonials = () => {
         showIndicators={false}
         selectedItem={currentIndex}
         onChange={(index) => setCurrentIndex(index)}
-        className='cursor-grabbing'
+        // className='cursor-grabbing'
       >
         <div key={0}>
         <section className="text-gray-600 body-font">
