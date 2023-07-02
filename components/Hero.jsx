@@ -19,8 +19,9 @@ const Hero = () => {
       <Carousel
         autoPlay
         infiniteLoop
-     
-        swipeable={false}
+        emulateTouch={true}
+     stopOnHover={false}
+        // swipeable={false}
         showStatus={false}
         showThumbs={false}
         interval={4000}
@@ -28,6 +29,7 @@ const Hero = () => {
         showIndicators={false}
         selectedItem={currentIndex}
         onChange={(index) => setCurrentIndex(index)}
+        className='cursor-grabbing'
       >
         <div key={0}>
        <Compare/>

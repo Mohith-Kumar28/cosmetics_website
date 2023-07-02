@@ -22,14 +22,17 @@ const Testimonials = () => {
       <Carousel
         autoPlay
         infiniteLoop
+        stopOnHover={false}
         // swipeable={true}
+        emulateTouch={true}
         showStatus={false}
         showThumbs={false}
-        interval={3000}
+        interval={2000}
         transitionTime={500}
         showIndicators={false}
         selectedItem={currentIndex}
         onChange={(index) => setCurrentIndex(index)}
+        className='cursor-grabbing'
       >
         <div key={0}>
         <section className="text-gray-600 body-font">
