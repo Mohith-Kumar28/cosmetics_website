@@ -16,7 +16,7 @@ export default function NavBar() {
 
   const navigation = [
     { name: 'Home', href: '/', current: false },
-    { name: 'link 1', href: '#', current:false },
+    { name: 'Pricing', href: '/pricing', current:false },
     { name: 'Link 2', href: '#', current: false  },
     // { name: 'Home', href: '/', current: router.pathname=="/"  },
     // { name: 'Shifts', href: '/shifts', current:router.pathname.includes("/shifts")   },
@@ -42,7 +42,7 @@ export default function NavBar() {
               </div>
               <div className=" flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
               <Link href="/">  <div className="bg-black ">
-              
+              LOGO
               {/* <Image
                     className=" h-12 w-auto "
                     src="/assets/logo.svg"

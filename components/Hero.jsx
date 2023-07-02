@@ -20,7 +20,7 @@ const Hero = () => {
         autoPlay
         infiniteLoop
      
-        swipeable={true}
+        swipeable={false}
         showStatus={false}
         showThumbs={false}
         interval={4000}

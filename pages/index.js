@@ -11,6 +11,7 @@ import Testimonials from '@/components/Testimonials'
 import Footer from '@/components/layout/Footer'
 import ContactUs from '@/components/ContactUs'
 import Blog from '@/components/Blog'
+import Usp from '@/components/Usp'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,7 +23,8 @@ export default function Home() {
       <NavBar/>
       <Hero/>
       <Services/>
-      <Pricing/>
+      <Usp/>
+      {/* <Pricing/> */}
       <Team/>
       <ContactUs/>
       <Testimonials/>

@@ -63,7 +63,7 @@ const Services = () => {
   <div className=" px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20">
       <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Pitchfork Kickstarter Taxidermy</h1>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Services</h1>
         <div className="h-1 w-20 bg-red-500 rounded"></div>
       </div>
       <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
@@ -71,20 +71,20 @@ const Services = () => {
     <div className="flex flex-wrap justify-center">
       <div className=" p-4 max-w-lg">
         <div className="bg-gray-100 p-6 rounded-lg flex flex-col md:flex md:flex-row gap-4">
-          <img className="h-40 rounded w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
+          <img className="h-40 mr-5 rounded  object-cover object-center" src="/assets/enterprice.png" alt="content"/>
           <div >
           <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Chichen Itza</h2>
+          <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Enterprise</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art </p>
           </div>
         </div>
       </div>
       <div className=" p-4 max-w-lg">
         <div className="bg-gray-100 p-6 rounded-lg flex-col md:flex md:flex-row gap-4">
-          <img className="h-40 rounded w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="content"/>
+          <img className="h-40 mr-5 rounded  object-cover object-center" src="/assets/onlineServices.png" alt="content"/>
           <div >
           <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
-          <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Chichen Itza</h2>
+          <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Online Services</h2>
           <p className="leading-relaxed text-base">Fingerstache flexitarian street art </p>
           </div>
         </div>
