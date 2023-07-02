@@ -39,18 +39,18 @@ const NailPolish = () => {
   };
 
   return (
-    <div className='text-gray-700 '>
+    <div className='text-gray-700 bg-yellow-50'>
    
   
     
     
       <section className="text-gray-600 body-font">
-  <div className=" mx-auto flex pl-5 py-24 md:flex-row flex-col items-center">
+  <div className=" mx-auto flex pl-5 pt-20 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Try our AR Nail Polish
-        <br className="hidden lg:inline-block"/>for free
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Express Your Style with AR Nail Polish Try-On
+      
       </h1>
-      <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <p className="mb-8 leading-relaxed">Say goodbye to indecision and embrace the vibrant world of nail polish with our AR nail polish try-on. No more guessing if a shade will complement your skin tone or outfit. Try on an array of colors, finishes, and nail art designs virtually, and see how they look on your nails in real-time. </p>
       <div className="flex justify-center">
         <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Button</button>
         <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>

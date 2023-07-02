@@ -6,7 +6,8 @@ const Team = () => {
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-col text-center w-full mb-20">
         <h1 className="text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
-        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+        <div className='h-1 w-20 mx-auto rounded-full mb-4 bg-red-500'></div>
+        <p className="lg:w-2/3 mx-auto leading-relaxed text-base">At Mystic Beauty, our team is composed of passionate individuals who share a common vision of merging beauty and technology. Our diverse team of experts in computer graphics, deep learning, and augmented reality works tirelessly to push the boundaries of what is possible in the world of virtual try-on experiences. Together, we are dedicated to providing you with the most immersive and enjoyable beauty exploration journey.</p>
       </div>
       <div className="flex flex-wrap -m-4">
         <div className="p-4 lg:w-1/4 md:w-1/2">

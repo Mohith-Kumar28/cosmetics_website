@@ -32,13 +32,13 @@ const Hero = () => {
         // className='cursor-grabbing'
       >
         <div key={0}>
-       <Compare/>
+       <Jewelery/>
        </div>
        <div key={1}>
        <NailPolish/>
        </div>
        <div key={2}>
-       <Jewelery/>
+       <Compare/>
        </div>
       </Carousel>
       <div className='flex relative z-10 -mt-24 lg:-mt-44 ml-8'>

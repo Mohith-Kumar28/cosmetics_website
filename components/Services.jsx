@@ -66,7 +66,7 @@ const Services = () => {
         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Services</h1>
         <div className="h-1 w-20 bg-red-500 rounded"></div>
       </div>
-      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p>
+      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">At Mystic Beauty, we offer a wide range of services that enhance your beauty exploration. Our innovative AR technology allows you to virtually try on various products, such as makeup, hair dye, and shoes. Experience the joy of experimenting with different styles and colors from the comfort of your own home. With our real-time rendering capabilities, you can make informed decisions about your beauty choices and confidently select the perfect products for your unique style.</p>
     </div>
     <div className="flex flex-wrap justify-center">
       <div className=" p-4 max-w-lg">
@@ -75,7 +75,7 @@ const Services = () => {
           <div >
           <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Enterprise</h2>
-          <p className="leading-relaxed text-base">Fingerstache flexitarian street art </p>
+          <p className="leading-relaxed text-base">End to end solution for your company</p>
           </div>
         </div>
       </div>
@@ -85,7 +85,7 @@ const Services = () => {
           <div >
           <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Online Services</h2>
-          <p className="leading-relaxed text-base">Fingerstache flexitarian street art </p>
+          <p className="leading-relaxed text-base">Startup or small team, We have got you covered.</p>
           </div>
         </div>
       </div>
