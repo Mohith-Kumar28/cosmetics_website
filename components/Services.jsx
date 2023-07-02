@@ -71,7 +71,7 @@ const Services = () => {
     <div className="flex flex-wrap justify-center">
       <div className=" p-4 max-w-lg">
         <div className="bg-gray-100 p-6 rounded-lg flex flex-col md:flex md:flex-row gap-4">
-          <img className="h-40 mr-5 rounded  object-cover object-center" src="/assets/enterprice.png" alt="content"/>
+          <img className="h-40 mr-5 rounded  object-contain object-center" src="/assets/enterprice.png" alt="content"/>
           <div >
           <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Enterprise</h2>
@@ -81,7 +81,7 @@ const Services = () => {
       </div>
       <div className=" p-4 max-w-lg">
         <div className="bg-gray-100 p-6 rounded-lg flex-col md:flex md:flex-row gap-4">
-          <img className="h-40 mr-5 rounded  object-cover object-center" src="/assets/onlineServices.png" alt="content"/>
+          <img className="h-40 mr-5 rounded  object-contain object-center" src="/assets/onlineServices.png" alt="content"/>
           <div >
           <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Online Services</h2>
