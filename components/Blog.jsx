@@ -7,7 +7,7 @@ const Blog = () => {
         <div className='h-1 w-20 mx-auto rounded-full mt-4 bg-red-500'></div>
         <section className="text-gray-600 body-font">
   <div className="container px-16 py-14 mx-auto ">
-    <div className="flex flex-wrap divide-x-8 divide-red-50 -mx-4 -my-8">
+    <div className="flex flex-wrap  -mx-4 -my-8">
       <div className="py-8 px-4 lg:w-1/3">
         <div className="h-full flex items-start">
           <div className="w-12 flex-shrink-0 flex flex-col text-center leading-none">

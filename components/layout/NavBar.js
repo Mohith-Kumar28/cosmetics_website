@@ -41,15 +41,15 @@ export default function NavBar() {
                 </Disclosure.Button>
               </div>
               <div className=" flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-              <Link href="/">  <div className="bg-black ">
-              LOGO
-              {/* <Image
-                    className=" h-12 w-auto "
-                    src="/assets/logo.svg"
+              <Link href="/">  <div className=" ">
+              
+              <Image
+                    className=" h-12 w-auto rounded-md "
+                    src="/assets/logo.jpg"
                     width={100}
                     height={100}
                     alt="ok"
-                  /> */}
+                  />
                
                 </div></Link>
                   </div>

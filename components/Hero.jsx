@@ -15,7 +15,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="relative  md:max-h-screen  ">
+    <div className="relative  md:max-h-screen overflow-hidden ">
       <Carousel
         autoPlay
         infiniteLoop

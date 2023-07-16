@@ -25,7 +25,7 @@ export default function Home() {
       <Services/>
       <Usp/>
       {/* <Pricing/> */}
-      <Team/>
+      {/* <Team/> */}
       <ContactUs/>
       <Testimonials/>
       <Blog/>
