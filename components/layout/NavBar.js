@@ -17,6 +17,7 @@ export default function NavBar() {
   const navigation = [
     { name: 'Home', href: '/', current: false },
     { name: 'Pricing', href: '/pricing', current:false },
+    { name: 'Contact Us', href: '#contactUs', current:false },
     // { name: 'Link 2', href: '#', current: false  },
     // { name: 'Home', href: '/', current: router.pathname=="/"  },
     // { name: 'Shifts', href: '/shifts', current:router.pathname.includes("/shifts")   },
@@ -24,7 +25,7 @@ export default function NavBar() {
     // { name: 'Resignation', href: '/resignation', current: router.pathname.includes("/resignation")  },
   ]
   return (
-    <Disclosure as="nav" className="bg-white/30 backdrop-blur-xl fixed top-0 left-0 z-40 w-full shadow-lg ">
+    <Disclosure as="nav" className="bg-white/50 backdrop-blur-3xl fixed top-0 left-0 z-40 w-full shadow-lg ">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -60,7 +61,7 @@ export default function NavBar() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-600 hover:bg-gray-200 hover:text-gray-600',
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-900 hover:bg-gray-200 hover:text-gray-600',
                           'rounded-md px-3 py-2 text-sm font-bold'
                         )}
                         aria-current={item.current ? 'page' : undefined}

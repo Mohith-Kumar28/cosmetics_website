@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useCallback } from "react";
 
 /**
@@ -101,8 +102,8 @@ export const Compare = () => (
       </h1>
       <p className="mb-8 leading-relaxed">Experience the power of virtual makeup with our cutting-edge technology. Explore a wide range of cosmetics, from foundations to lipsticks, and effortlessly try them on in real-time. Discover your perfect shade, experiment with different looks, and confidently choose the products that suit your style.</p>
       <div className="flex justify-center">
-        <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Button</button>
-        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+      <Link href='mailto:viktoras@mysticbeauty.care'>  <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Contact Us</button></Link>
+        {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 h-full bg-red-200 rounded-lg">

@@ -1,5 +1,6 @@
 import React from 'react'
 import { ChevronDoubleRightIcon } from '@heroicons/react/24/outline'
+import Link from 'next/link'
 
 const Jewelery = () => {
   return (
@@ -16,8 +17,8 @@ const Jewelery = () => {
    </h1>
    <p className="mb-8 leading-relaxed">Enhance your style and accessorize with modern jewelry in augmented reality. Explore our curated collection of contemporary pieces, including earrings, necklaces, bracelets, and more. Try on different designs, metals, and gemstones virtually to see how they beautifully complement your outfit and express your personal style. </p>
    <div className="flex justify-center">
-     <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Button</button>
-     <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+   <Link href='mailto:viktoras@mysticbeauty.care'>  <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Contact Us</button></Link>
+     {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
    </div>
  </div>
  <div className="lg:max-w-md lg:w-full md:w-1/2 w-5/6 relative">

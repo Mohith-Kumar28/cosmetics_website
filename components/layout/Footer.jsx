@@ -18,7 +18,7 @@ const Footer = () => {
         
         </a>
         <p className="text-sm text-gray-400 sm:ml-6 sm:mt-0 mt-4">© 2023 MysticBeauty —
-          <a href="https://twitter.com/knyttneve" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">@mail</a>
+          <a href="https://twitter.com/knyttneve" className="text-gray-500 ml-1" target="_blank" rel="noopener noreferrer">viktoras@mysticbeauty.care</a>
         </p>
         {/* <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a className="text-gray-400">
