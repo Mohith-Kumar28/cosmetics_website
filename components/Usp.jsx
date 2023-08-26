@@ -7,7 +7,7 @@ const Usp = () => {
   <div className="container px-5 py-24 mx-auto">
     <div className="text-center mb-20">
       <h1 className="sm:text-3xl text-2xl font-medium text-center title-font text-white mb-4">Why to choose us?</h1>
-      <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Welcome to Mystic Beauty, where we combine the world of beauty and technology to revolutionize the way you experience online shopping. With our cutting-edge augmented reality (AR) applications, we bring a new level of interactivity and personalization to your beauty journey. Explore our virtual try-on experiences and discover a world of endless possibilities.</p>
+      <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">Get ready to embark on an extraordinary journey with Mystic Beauty, where we're fusing the realms of beauty and technology to reimagine your online shopping encounters. Through our advanced augmented reality (AR) innovations, we're poised to introduce an unmatched level of engagement and personalization to your beauty exploration. Soon, you'll have the opportunity to immerse yourself in a variety of virtual try-on experiences, opening the door to a world of boundless possibilities. Stay tuned for our upcoming services that will transform the way you perceive beauty and online shopping.</p>
     </div>
     <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
       <div className="p-2 sm:w-1/2 w-full">

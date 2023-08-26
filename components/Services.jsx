@@ -63,17 +63,18 @@ const Services = () => {
   <div className=" px-5 py-24 mx-auto">
     <div className="flex flex-wrap w-full mb-20">
       <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Our Services</h1>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">What are we going to offer...?</h1>
         <div className="h-1 w-20 bg-red-500 rounded"></div>
       </div>
-      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">At Mystic Beauty, we offer a wide range of services that enhance your beauty exploration. Our innovative AR technology allows you to virtually try on various products, such as makeup, hair dye, and shoes. Experience the joy of experimenting with different styles and colors from the comfort of your own home. With our real-time rendering capabilities, you can make informed decisions about your beauty choices and confidently select the perfect products for your unique style.</p>
+      <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">
+At Mystic Beauty, we are excited to soon offer a diverse array of services aimed at enhancing your beauty exploration. Our upcoming innovative AR technology will enable you to virtually experiment with a variety of products, including makeup, hair dye, and shoes. You'll be able to delight in the experience of trying out different styles and colors, all from the convenience of your own home. Leveraging our cutting-edge real-time rendering capabilities, you'll have the opportunity to make well-informed decisions about your beauty selections, helping you confidently choose the perfect products to complement your individual style. Stay tuned for the launch of our services!</p>
     </div>
     <div className="flex flex-wrap justify-center">
       <div className=" p-4 max-w-lg">
         <div className="bg-gray-100 p-6 rounded-lg flex flex-col md:flex md:flex-row gap-4">
           <img className="h-40 mr-5 rounded  object-contain object-center" src="/assets/enterprice.png" alt="content"/>
           <div >
-          <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
+          <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">Elevate Your Style with Enterprise Solutions</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Enterprise</h2>
           <p className="leading-relaxed text-base">End to end solution for your company</p>
           </div>
@@ -83,7 +84,7 @@ const Services = () => {
         <div className="bg-gray-100 p-6 rounded-lg flex-col md:flex md:flex-row gap-4">
           <img className="h-40 mr-5 rounded  object-contain object-center" src="/assets/onlineServices.png" alt="content"/>
           <div >
-          <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">SUBTITLE</h3>
+          <h3 className="tracking-widest text-red-500 text-xs font-medium title-font mt-4">Revolutionize Beauty Exploration Online</h3>
           <h2 className="text-lg text-gray-900 font-medium title-font md:mb-4">Online Services</h2>
           <p className="leading-relaxed text-base">Startup or small team, We have got you covered.</p>
           </div>
