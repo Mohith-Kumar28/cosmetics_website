@@ -53,7 +53,7 @@ const NailPolish = () => {
       </h1>
       <p className="mb-8 leading-relaxed">Say goodbye to indecision and embrace the vibrant world of nail polish with our AR nail polish try-on. No more guessing if a shade will complement your skin tone or outfit. Try on an array of colors, finishes, and nail art designs virtually, and see how they look on your nails in real-time. </p>
       <div className="flex justify-center">
-      <Link href='mailto:viktoras@mysticbeauty.care'>   <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Contact Us</button></Link>
+      <Link href='mailto:viktoras@mysticbeauty.botique'>   <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Contact Us</button></Link>
         {/* <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button> */}
       </div>
     </div>

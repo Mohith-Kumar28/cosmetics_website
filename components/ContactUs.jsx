@@ -17,7 +17,7 @@ const ContactUs = () => {
         </div>
         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 className="title-font font-semibold text-white tracking-widest text-xs">EMAIL</h2>
-          <a className="text-red-400 leading-relaxed">viktoras@mysticbeauty.care</a>
+          <a className="text-red-400 leading-relaxed">viktoras@mysticbeauty.botique</a>
           <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">PHONE</h2>
           <p className="leading-relaxed">10621173</p>
         </div>
@@ -39,7 +39,7 @@ const ContactUs = () => {
         <label htmlFor="message" className="leading-7 text-sm text-gray-400">Message</label>
         <textarea id="message" name="message" className="w-full bg-gray-800 rounded border border-gray-700 focus:border-red-500 focus:ring-2 focus:ring-red-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
       </div>
-      <Link href='mailto:viktoras@mysticbeauty.care'>
+      <Link href='mailto:viktoras@mysticbeauty.botique'>
       <button className="text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg">Send</button>
       </Link>
       <p className="text-xs text-gray-400 text-opacity-90 mt-3">We will keep your details safe with us.</p>
